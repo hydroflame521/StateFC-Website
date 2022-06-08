@@ -1,1 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+.navbar {
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+}
 
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 100%;  
+  border: none;
+  outline: none;
+  color: inherit;
+  padding: 14px 16px;
+  background-color: transparent;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  font-size: 80%;
+  color: #ffffff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+p{
+        color:black;
+        font-family: Raleway,Thonburi;
+        padding: 10px 20px;
+}
+body {
+        color:black;
+        font-family: Raleway,Thonburi;
+        background-image:linear-gradient(rgb(255, 255, 255),#ff0000);
+        opacity: 1;
+        background-attachment: fixed;
+        background-position:center;
+        background-repeat: no-repeat;
+}
+footer {
+        position: fixed;
+        display: block;
+        border-radius: 10px;
+        font-size: 13px;
+        background-image:linear-gradient(to top left, #ffffff,#ffffff);
+        padding:10px 10px;
+}
+a {
+        color: #ffffff;
+        text-decoration: none !important;
+}
+a:hover {
+        color: darkred;
+        text-decoration: none!important;
+}
+h2, h1,h3,h4,h5 {
+        color: black;
+        cursor: grabbing;
+        font-family: Texturina,Superclarendon; 
+}
+button {
+        color: black;
+        background-image: linear-gradient(to top left, lightblue, white);
+}
+nav {
+        color:black;
+        background-color: rgb(255, 240, 245);
+        position:fixed;
+        padding:10px 10px;
+}        
